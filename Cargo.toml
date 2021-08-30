@@ -11,7 +11,7 @@ cortex-m-rt = "0.6.10"
 cortex-m-semihosting = "0.3.3"
 panic-semihosting = "0.5.6"
 #panic-halt = "0.2.0"
-mkl25z4 = "0.0.3"
+mkl25z4 = { version = "0.0.3", features = ["rt"] }
 #mkl25z4-hal = { git = "https://github.com/mgottschlag/mkl25z4-hal.git" }
 #embedded-hal = "0.2.3"
 heapless = "0.7.5"
